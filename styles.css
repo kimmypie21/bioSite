@@ -1,0 +1,124 @@
+/*global styles*/
+
+
+body{
+    font-family:'Open Sans', sans-serif;
+    background-color: #F3EED9;
+}
+
+#container{
+    margin-top: 50px;
+    width:80%;
+    margin: 0 auto;
+    
+}
+
+h2, figcaption{
+    font-family: 'Pompiere', cursive;
+    color: #A72120;
+}
+/*end global styles*/
+
+
+/*nav styles*/
+nav li{
+    display: inline;
+    list-style-type: none;
+    padding-right:  4%;
+    padding-left: none;
+    color: #A72120;
+    
+}
+
+nav{
+    background-color: rgba(255,255,255, .80);
+    position: fixed;
+    top: 0;
+    border-radius: 0 0 5px 5px;
+    width: 85%;
+    text-align: center;
+   
+}
+
+nav a{
+  text-decoration: none;
+  color: #A72120;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+/*end nav styles*/
+
+
+/*main styles*/
+.main{
+  margin-top: 70px;  
+}
+
+.main img{ 
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.main p{
+    text-align:left;
+}
+/*end main styles*/
+
+
+
+/*footer styles*/
+footer{
+   color: #A72120;
+   height:100px;
+   text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #A72120;   
+}
+
+footer a:hover{
+    font-weight: bold;
+}
+/*end footer styles*/
+
+
+
+/*flex box styles*/
+.column{
+    flex:auto;
+    padding: 5px; 
+}
+
+.flex{
+   display:flex;
+   width: 100%;
+   flex-wrap: wrap; 
+}
+
+/*end flex box styles*/
+
+
+/*styles for figure box*/
+figure{
+    padding: 2%;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(255,255,255, .80);
+}
+
+
+figcaption{
+    font-weight: 600;
+}
+
+img{
+    border-radius: 5px 5px 5px 5px;
+}
+
+/*end figure box styles*/
