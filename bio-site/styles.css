@@ -1,0 +1,159 @@
+/*global styles*/
+
+
+body{
+    font-family:'Open Sans', sans-serif;
+    background-image: url(images/roses.jpg);
+    background-size:cover;
+    background-position:bottom;
+    background-attachment:fixed;
+    background-repeat:repeat-x;
+    
+}
+
+#container{
+    width: 80%;
+    margin: 0 auto; 
+}
+
+h2, figcaption{
+    font-family: 'Pompiere', cursive;
+    color: #A72120;
+}
+/*end global styles*/
+
+
+/*nav styles*/
+
+header{
+    background-image: url(images/header3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 7%;
+    margin-bottom: 2%;
+}
+
+nav li{
+    list-style-type: none;
+    color: #A72120;
+    
+    
+}
+
+nav ul{
+    padding: 4%;
+}
+
+nav{
+    border-radius: 0 0 5px 5px;
+    font-family: 'Pompiere', cursive;
+    font-size: 30px;
+    text-align: center; 
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+nav a{
+  text-decoration: none;
+  color: #A72120;
+  padding: 10px;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+/*end nav styles*/
+
+
+/*main styles*/
+.main{
+  background-color: rgba(255,255,255, .70);
+    width: 80%;
+    margin: 0 auto;    
+}
+
+.main img{ 
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.main p{
+    text-align:left;
+
+}
+/*end main styles*/
+
+
+
+/*footer styles*/
+footer{
+    color: #A72120;
+    background-image: url(images/header3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25%;
+    text-align: center;
+    font-family: 'Pompiere', cursive;
+    font-size: 20px;
+    margin-top: 1%;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: #A72120;   
+}
+
+footer a:hover{
+    font-weight: bold;
+}
+/*end footer styles*/
+
+
+
+/*flex box styles*/
+.column{
+    flex:auto;
+    padding: 5px; 
+}
+
+.flex{
+   display:flex;
+   flex-wrap: wrap; 
+}
+
+/*end flex box styles*/
+
+
+/*styles for figure box*/
+figure{
+    padding: 4%;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(255,255,255, .80);   
+}
+
+figure img{
+    max-width: 80%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+figcaption{
+    font-weight: 600;
+}
+
+img{
+    border-radius: 5px 5px 5px 5px;
+}
+
+/*end figure box styles*/
+
+#images{
+    width: 80%;
+    margin: 0 auto; 
+   
+}
