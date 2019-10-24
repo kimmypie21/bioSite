@@ -3,14 +3,17 @@
 
 body{
     font-family:'Open Sans', sans-serif;
-    background-color: #F3EED9;
+    background-image: url(images/roses.jpg);
+    background-size:cover;
+    background-position:bottom;
+    background-attachment:fixed;
+    background-repeat:repeat-x;
+    
 }
 
 #container{
-    margin-top: 50px;
-    width:80%;
-    margin: 0 auto;
-    
+    width: 80%;
+    margin: 0 auto; 
 }
 
 h2, figcaption{
@@ -21,27 +24,40 @@ h2, figcaption{
 
 
 /*nav styles*/
+
+header{
+    background-image: url(images/header3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 7%;
+    margin-bottom: 2%;
+}
+
 nav li{
-    display: inline;
     list-style-type: none;
-    padding-right:  4%;
     color: #A72120;
+    
     
 }
 
+nav ul{
+    padding: 4%;
+}
+
 nav{
-    background-color: rgba(255,255,255, .80);
-    position: fixed;
-    top: 0;
     border-radius: 0 0 5px 5px;
-    width: 85%;
-    text-align: center;
-   
+    font-family: 'Pompiere', cursive;
+    font-size: 30px;
+    text-align: center; 
+    width: 80%;
+    margin: 0 auto;
+    
 }
 
 nav a{
   text-decoration: none;
   color: #A72120;
+  padding: 10px;
 }
 
 nav a:hover{
@@ -53,7 +69,9 @@ nav a:hover{
 
 /*main styles*/
 .main{
-  margin-top: 70px;  
+  background-color: rgba(255,255,255, .70);
+    width: 80%;
+    margin: 0 auto;    
 }
 
 .main img{ 
@@ -63,6 +81,7 @@ nav a:hover{
 
 .main p{
     text-align:left;
+
 }
 /*end main styles*/
 
@@ -70,9 +89,16 @@ nav a:hover{
 
 /*footer styles*/
 footer{
-   color: #A72120;
-   height:100px;
-   text-align: center;
+    color: #A72120;
+    background-image: url(images/header3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25%;
+    text-align: center;
+    font-family: 'Pompiere', cursive;
+    font-size: 20px;
+    margin-top: 1%;
+    
 }
 
 footer a{
@@ -95,7 +121,6 @@ footer a:hover{
 
 .flex{
    display:flex;
-   width: 100%;
    flex-wrap: wrap; 
 }
 
@@ -104,11 +129,16 @@ footer a:hover{
 
 /*styles for figure box*/
 figure{
-    padding: 2%;
+    padding: 4%;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     border-radius: 5px 5px 5px 5px;
-    background-color: rgba(255,255,255, .80);
+    background-color: rgba(255,255,255, .80);   
+}
+
+figure img{
+    max-width: 80%;
+    border-radius: 5px 5px 5px 5px;
 }
 
 
@@ -121,3 +151,9 @@ img{
 }
 
 /*end figure box styles*/
+
+#images{
+    width: 80%;
+    margin: 0 auto; 
+   
+}
