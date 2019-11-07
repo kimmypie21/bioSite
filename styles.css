@@ -69,19 +69,28 @@ nav a:hover{
 .main{
   background-color: rgba(255,255,255, .70);
   width: 80%; 
+  margin: 0 auto;
+  
 }
 
 .main img{ 
-    width: 80%;
-    margin: 0 auto; 
+    max-width: 90%;
+    margin: 0 auto;
+    padding:1%;
+}
+
+.main p{
+    
+    padding: 2%; 
 }
 
 .main2{
-    padding: 4%;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
     text-align:left;
     border-radius: 5px 5px 5px 5px;
-    background-color: rgba(255,255,255, .80);   
+    background-color: rgba(255,255,255, .80); 
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 /*end main styles*/
@@ -114,14 +123,18 @@ footer a:hover{
 
 
 /*flex box styles*/
-.column{
-    flex:auto;
-    padding: 5px;
+.flex{ 
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: auto;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2%;
+   
 }
-
-.flex{
-   display:flex;
-   flex-wrap: wrap;
+.flex img{
+  max-width: 100%; 
 }
 
 /*end flex box styles*/
@@ -129,34 +142,37 @@ footer a:hover{
 
 /*styles for figure box*/
 figure{
-    padding: 4%;
+    padding: 20px;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     border-radius: 5px 5px 5px 5px;
-    background-color: rgba(255,255,255, .80);   
-}
-
-figure img{
-    max-width: 80%;
+    background-color: rgba(255,255,255, .80);  
     border-radius: 5px 5px 5px 5px;
 }
 
+figure img{
+   border-radius: 5px 5px 5px 5px;
+}
 
 figcaption{
     font-weight: 600;
+    font-size: 20px;
 }
 
 img{
     border-radius: 5px 5px 5px 5px;
 }
 
+img:hover{
+     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+figure img:hover{
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
 /*end figure box styles*/
 
 
-#images{
-    width: 80%;
-    margin: 0 auto;  
-}
 
 
 
